@@ -2,7 +2,7 @@ import producer from 'immer';
 
 export default function cart(state = [], action) {
   switch (action.type) {
-    case '@cart/ADD':
+    case '@cart/ADD_SUCCESS':
       return producer(state, draf => {
         const productIndex = state.findIndex(
           product => product.id === action.product.id

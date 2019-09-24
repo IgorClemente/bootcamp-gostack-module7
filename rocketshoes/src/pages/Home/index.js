@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 
+import * as CartActions from '../../store/modules/cart/actions';
+import { bindActionCreators } from 'redux';
+
 import { connect } from 'react-redux';
 
 import { MdAddShoppingCart } from 'react-icons/md';
 import { ProductList } from './styles';
 
 import api from '../../services/api';
+
 import { formatPrice } from '../../util/format';
 
 class Home extends Component {
@@ -17,7 +21,7 @@ class Home extends Component {
     const { dispatch } = this.props;
 
     dispatch({
-      type: 'ADD_PRODUCT_TO_CART',
+      type: '@cart/ADD',
       product,
     });
   }

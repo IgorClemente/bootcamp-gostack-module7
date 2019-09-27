@@ -1,6 +1,6 @@
 import { call, select, put, all, takeLatest } from 'redux-saga/effects';
 
-import { history } from 'history';
+import history from '../../../config/HistoryConfig';
 
 import { formatPrice } from '../../../util/format';
 import api from '../../../services/api';

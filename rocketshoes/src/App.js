@@ -3,7 +3,7 @@ import './App.css';
 
 import './config/ReactotronConfig';
 
-import { history } from 'history';
+import history from './config/HistoryConfig';
 import { Router } from 'react-router-dom';
 import GlobalStyle from './styles/global';
 

@@ -34,7 +34,7 @@
 
 ## :rocket: Descrição
 
-Rocketshoes foi desenvolvido utilizando ReactJS e todo ambiente configurando com ESLint, Prettier, Babel, Webpack. A aplicação é um E-commerce de calçados.
+Rocketshoes foi desenvolvido utilizando ReactJS, Redux, Redux Saga, React Hooks e todo ambiente configurando com ESLint, Prettier, Babel, Webpack. A aplicação é um E-commerce de calçados, com tela principal e carrinho de compras.
 
 ## :hammer: Iniciando a aplicação
 
@@ -42,27 +42,17 @@ Para executar a aplicação execute os seguintes comandos:
 
 Instale todas a dependências:
 
-```js
-yarn;
-```
+```bash
 
-Para executar na plataforma iOS, execute o seguinte comando:
-
-```js
-
-  react-native run-ios
+  yarn
 
 ```
 
-Para executar na plataforma Android, primeiro você abrir o Emulador:
+Depois execute a aplicação:
 
-Inicie o Android Studio em sua máquina, depois procure por AVD Manager, gerenciador de emuladores Android, escolha um Emulador existente ou crie um do zero.
+```bash
 
-Após iniciar o emulador execute o seguinte comando:
-
-```js
-
-  react-native run-android
+  yarn start
 
 ```
 

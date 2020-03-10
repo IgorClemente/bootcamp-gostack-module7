@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Módulo 7: Rocketshoes - React Native
+  Módulo 7: Rocketshoes - ReactJS
 </h3>
 
 <p align="center">“Não espere para plantar, apenas tenha paciência para colher”!</blockquote>
